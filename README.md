@@ -4,6 +4,12 @@ The Pose Energy Image (PEI) can be created using uploaded code files which are i
 
 The Key poses have not been created as given in the related research work using distortion rate. To construct the key pose set the half gait cycle extracted first from each subject the frames are condensed into single image respect to their pose.
 
+To find the Pose Energy Image (PEI) we can follow the code files in the following sequence:
+
+Select_doubble_support_frames.m, halfCycleSelection.m, CountCycleLength2.m, Global_half_Cycle_frames3.m, Pose_Energy_Image.m
+
+
+
 The above codes are not exactly match but related to the following research work:
 
 Title: "Gait recognition using Pose Kinematics and Pose Energy Image"
